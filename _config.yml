@@ -124,7 +124,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/iamminseongKim"
     - label: "Email"
-      icon: "fab fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope-square"
       url: mailto:minseongkimim@gmail.com
     
 
