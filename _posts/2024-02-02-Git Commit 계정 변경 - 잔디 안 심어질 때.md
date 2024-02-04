@@ -90,7 +90,7 @@ vi 에디터가 나올껀데 딱히 수정할 건 없으니깐 :wq  하고 나�
 
 ```
 git rebase --continue
-git push origin main
+git push -f origin main
 ```
 
 ![](https://i.imgur.com/oT9Eg6z.png)
