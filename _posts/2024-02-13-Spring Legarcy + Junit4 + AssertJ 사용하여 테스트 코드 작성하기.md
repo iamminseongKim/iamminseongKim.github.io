@@ -80,15 +80,17 @@ public class TestController {
 이렇게 간단한 컨트롤러를 만들었다.
 
 그럼 테스트 코드를 만들어 보자
+
 ![](https://i.imgur.com/2PBUMsF.png)
+
 이렇게 만들거나 `Ctrl + Shift + t` 를 눌러서 테스트 java파일을 만들자 
 
 ![](https://i.imgur.com/xaEFIij.png)
 
-
 그럼 가장 중요하게 볼 게 JUnit4로 설정 되어 있는지 확인. 이상 없으면 OK.
 
 ![](https://i.imgur.com/69TpF5Q.png)
+
 그럼 다음과 같이 src/test 하위에 main과 마찬가지로 같은 경로에 파일이 생성 된다.
 
 #### mockito를 이용한 단위 테스트
@@ -163,10 +165,10 @@ public class TestControllerTest {
 이걸 왜 사용하냐면 testController에서 우리가 테스트할 코드는 
 ```java
 @RequestMapping("/test/test")  
-    public String test(){  
-        int test = testService.test();  
-        return "success";  
-    }  
+public String test(){  
+	int test = testService.test();  
+	return "success";  
+}  
 ```
 다음과 같고, 이때 `testService.test()` 라는 연관 관계가 있기 때문에 이걸 대체 해주기 위함이다.
 
@@ -232,6 +234,7 @@ assertThat에 여러 기능들이 있겠지만, 여기선 assertThat().isEqualTo
 
 최종적으로 실행 해보면 다음과 같이 초록 체크 불이 들어오면 테스트가 통과된 것이다.
 만약에 기대한 값이 아니라 다른 값이 나오게 되어 테스트가 깨지면 다음과 같이 나온다.
+
 ![](https://i.imgur.com/nsVvp2D.png)
 
 나는 false를 기대했지만 실제 값은 success 라고 친절하게 코드가 알려준다.
@@ -312,8 +315,10 @@ public void testTestWithSpringMockMvc() throws Exception {
 이제 미리 만들어 놓은  mockMvc에 perform() 으로 특정 url을 호출 해보자. 우린 test 컨트롤러를 테스트 해야 하므로 get방식에 "/test/test"를 호출 했다. 그리고 `andExpect(status().isOk())`로 응답이 올바르게 왔는지 검증했고, 마지막으로 내용을 `andDo(print())`로 출력하였다.
 
 결과를 보자.
+
 ![](https://i.imgur.com/2IwlC6Q.png)
 ![](https://i.imgur.com/KRVhqY6.png)
+
 다음과 같이 테스트가 통과 하였고, Request 정보 및 Response 정보를 출력해 주고 있다.
 
 이로써 컨트롤러에 대한 단위 테스트 및 스프링을 사용한 통합 테스트를 알아보았다.
