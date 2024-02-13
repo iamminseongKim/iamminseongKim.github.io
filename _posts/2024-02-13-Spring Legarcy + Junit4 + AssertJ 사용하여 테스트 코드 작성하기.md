@@ -229,9 +229,11 @@ assertThat에 여러 기능들이 있겠지만, 여기선 assertThat().isEqualTo
 **assertThat(받은 결과 값).isEqualTo(내가 예상하는 값);** 이렇게  작성하면 된다.
 
 ![](https://i.imgur.com/Eh7Fw0r.png)
+
 최종적으로 실행 해보면 다음과 같이 초록 체크 불이 들어오면 테스트가 통과된 것이다.
 만약에 기대한 값이 아니라 다른 값이 나오게 되어 테스트가 깨지면 다음과 같이 나온다.
 ![](https://i.imgur.com/nsVvp2D.png)
+
 나는 false를 기대했지만 실제 값은 success 라고 친절하게 코드가 알려준다.
 
 
