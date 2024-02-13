@@ -322,9 +322,10 @@ public void testTestWithSpringMockMvc() throws Exception {
 다음과 같이 테스트가 통과 하였고, Request 정보 및 Response 정보를 출력해 주고 있다.
 
 이로써 컨트롤러에 대한 단위 테스트 및 스프링을 사용한 통합 테스트를 알아보았다.
+
 서비스 단은 다음에 보자..
 
-
+> [서비스단 테스트 코드 작성법 보러가기](https://iamminseongkim.github.io/spring/Spring-Legarcy-+-Junit4-+-AssertJ-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-(2)/)
 
 
 
