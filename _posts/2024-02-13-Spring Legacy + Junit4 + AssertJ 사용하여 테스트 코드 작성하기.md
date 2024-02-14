@@ -1,5 +1,5 @@
 ---
-title: Spring Legarcy + Junit4 + AssertJ 사용하여 테스트 코드 작성하기
+title: Spring Legacy + Junit4 + AssertJ 사용하여 테스트 코드 작성하기
 aliases: 
 tags:
   - spring
@@ -325,7 +325,7 @@ public void testTestWithSpringMockMvc() throws Exception {
 
 서비스 단은 다음에 보자..
 
-> [서비스단 테스트 코드 작성법 보러가기](https://iamminseongkim.github.io/spring/Spring-Legarcy-+-Junit4-+-AssertJ-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-(2)/)
+> [서비스단 테스트 코드 작성법 보러가기](https://iamminseongkim.github.io/spring/Spring-Legacy-+-Junit4-+-AssertJ-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-(2)/)
 
 
 

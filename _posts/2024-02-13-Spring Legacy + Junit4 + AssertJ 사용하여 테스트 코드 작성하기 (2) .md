@@ -13,7 +13,7 @@ last_modified_at: 2024-02-13
 ---
 이번엔 서비스 테스트 코드를 작성해 보자.
 
-> 참고 : 이전 글에 세팅 방법이 있다. [Spring Legacy + Junit4 + AssertJ 사용하여 테스트 코드 작성하기](https://iamminseongkim.github.io/spring/Spring-Legacy-+-Junit4-+-AssertJ-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0/) 
+> 참고 : 이전 글에 세팅 방법이 있다. [Spring Legacy + Junit4 + AssertJ 사용하여 테스트 코드 작성하기](https://iamminseongkim.github.io/spring/Spring-Legarcy-+-Junit4-+-AssertJ-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0/) 
 
 자 먼저 서비스단 코드를 보자.
 
