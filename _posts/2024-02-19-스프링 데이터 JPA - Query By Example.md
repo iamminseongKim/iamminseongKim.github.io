@@ -83,7 +83,9 @@ member.setTeam(team);
 ```
 
 다음과 같이 검색조건 객체를 만들 때 team도 세팅해 주면 
+
 ![](https://i.imgur.com/2tsTgYM.png)
+
 join도 가능하긴 하다.
 
 - Probe : 필드에 데이터가 있는 실제 도메인 객체
