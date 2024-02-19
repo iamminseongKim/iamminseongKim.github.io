@@ -1,5 +1,5 @@
 ---
-title: 스프링 데이터 JPA - JPA Hint & Lock
+title: 스프링 데이터 JPA - JPA Hint and  Lock
 aliases: 
 tags:
   - jpa
