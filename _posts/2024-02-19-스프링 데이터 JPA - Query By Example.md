@@ -14,7 +14,7 @@ last_modified_at: 2024-02-19
 > 나머지 기능들. 거의 안쓰는 기능 (알고만 있자.)
 - [Specifications](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-Specifications-(%EB%AA%85%EC%84%B8)/)
 - **<font color="#92d050">Query By Example</font>**
-- [Projection]()
+- [Projection](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-Projections/)
 - [네이티브 쿼리]()
 
 [스프링 공식 문서](https://docs.spring.io/spring-data/jpa/reference/repositories/query-by-example.html)
