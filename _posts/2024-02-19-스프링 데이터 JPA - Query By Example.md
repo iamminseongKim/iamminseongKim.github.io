@@ -11,7 +11,8 @@ toc_label: 목차
 date: 2024-02-19
 last_modified_at: 2024-02-19
 ---
-> 나머지 기능들. 거의 안쓰는 기능 (알고만 있자.)
+### 나머지 기능
+> 거의 안쓰는 기능 (알고만 있자.)
 - [Specifications](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-Specifications-(%EB%AA%85%EC%84%B8)/)
 - **<font color="#92d050">Query By Example</font>**
 - [Projection](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-Projections/)
@@ -83,9 +84,7 @@ member.setTeam(team);
 ```
 
 다음과 같이 검색조건 객체를 만들 때 team도 세팅해 주면 
-
 ![](https://i.imgur.com/2tsTgYM.png)
-
 join도 가능하긴 하다.
 
 - Probe : 필드에 데이터가 있는 실제 도메인 객체

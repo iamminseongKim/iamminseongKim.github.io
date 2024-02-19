@@ -11,7 +11,8 @@ toc_label: 목차
 date: 2024-02-20
 last_modified_at: 2024-02-20
 ---
-> 나머지 기능들. 거의 안쓰는 기능 (알고만 있자.)
+### 나머지 기능
+> 거의 안쓰는 기능 (알고만 있자.)
 - [Specifications](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-Specifications-(%EB%AA%85%EC%84%B8)/)
 - [Query By Example](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-Query-By-Example/)
 - <font color="#92d050">Projection</font>
