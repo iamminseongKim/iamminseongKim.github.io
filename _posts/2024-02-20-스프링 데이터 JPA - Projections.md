@@ -15,8 +15,8 @@ last_modified_at: 2024-02-20
 > 거의 안쓰는 기능 (알고만 있자.)
 - [Specifications](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-Specifications-(%EB%AA%85%EC%84%B8)/)
 - [Query By Example](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-Query-By-Example/)
-- <font color="#92d050">Projection</font>
-- [네이티브 쿼리]()
+- <font color="#92d050">Projections</font>
+- [네이티브 쿼리](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EC%BF%BC%EB%A6%AC/)
 
 엔티티 대신에 DTO를 편리하게 조회할 때 사용
 전체 엔티티가 아니라 만약 회원 이름만 딱 조회하고 싶으면?

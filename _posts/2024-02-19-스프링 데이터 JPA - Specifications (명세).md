@@ -15,8 +15,8 @@ last_modified_at: 2024-02-19
 > 거의 안쓰는 기능 (알고만 있자.)
 - **<font color="#92d050">Specifications</font>**
 - [Query By Example](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-Query-By-Example/)
-- [Projection](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-Projections/)
-- [네이티브 쿼리]()
+- [Projections](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-Projections/)
+- [네이티브 쿼리](https://iamminseongkim.github.io/jpa/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EC%BF%BC%EB%A6%AC/)
 
 ## Specifications (명세)
 
