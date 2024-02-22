@@ -6,8 +6,8 @@ categories:
  - 
 toc: true
 toc_label: "목차" 
-date: 2024-02-22 15:17:35
-last_modified_at: 2024-02-22 15:57:01
+date: 2024-02-22
+last_modified_at: 2024-02-22
 ---
 > 인프런 실전! Querydsl 강의 내용 정리
 
