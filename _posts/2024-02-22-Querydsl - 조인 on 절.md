@@ -1,5 +1,5 @@
 ---
-title: 2024-02-22-Querydsl - 조인 on 절
+title: Querydsl - 조인 on 절
 aliases: 
 tags:
 categories: 
