@@ -8,7 +8,7 @@ categories:
   - jpa
 toc: true
 toc_label: 목차
-date: 2024-02-23
+date: 2024-02-23 14:00:48
 last_modified_at: 2024-02-23
 ---
 > 인프런 실전! Querydsl 강의 내용 정리
