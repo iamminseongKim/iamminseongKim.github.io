@@ -2,8 +2,10 @@
 title: Querydsl - 조인 on 절
 aliases: 
 tags:
-categories: 
- - 
+  - jpa
+  - queryDSL
+categories:
+  - jpa
 toc: true
 toc_label: "목차" 
 date: 2024-02-22

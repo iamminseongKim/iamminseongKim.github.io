@@ -2,9 +2,8 @@
 title: Querydsl - JPQL vs QueryDSL
 aliases: 
 tags:
-  - queryDSL
   - jpa
-  - jpql
+  - queryDSL
 categories:
   - jpa
 toc: true
