@@ -72,7 +72,7 @@ public void findDtoByQueryProjection() throws Exception {
 
 하지만 딱 한 가지 고려할 점이 있다.
 
-`@QueryProjection` 이거 하나 때문에 DTO에서 `QueryDSL`에 대한 의존 관계가 생겨버린다.
+`@QueryProjection` 이거 하나 때문에 DTO에서 `QueryDSL`에 대한 의존 관계가 생겨버린다.<br>
 그리고 이에 따라 DTO까지 Q파일을 생성해야 하는 단점.
 
 ![](https://i.imgur.com/Sa93kCd.png)
