@@ -12,8 +12,8 @@ last_modified_at: 2024-02-28
 ---
 > 인프런 실전! Querydsl 강의 내용 정리
 
-- 순수 JPA 리포지토리와 Querydsl
-- 동적 쿼리 Builder 적용
+- <font color="#92d050">순수 JPA 리포지토리와 Querydsl</font>
+- [동적 쿼리 Builder 적용](https://iamminseongkim.github.io/jpa/Querydsl-%EB%8F%99%EC%A0%81-%EC%BF%BC%EB%A6%AC%EC%99%80-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94-%EC%A1%B0%ED%9A%8C-Builder-%EC%82%AC%EC%9A%A9/)
 - 동적 쿼리 Where 적용
 - 조회 API 컨트롤러 개발
 
