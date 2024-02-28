@@ -15,7 +15,7 @@ last_modified_at: 2024-02-28
 
 - [순수 JPA 리포지토리와 Querydsl](https://iamminseongkim.github.io/jpa/Querydsl-%EC%8B%A4%EB%AC%B4-%ED%99%9C%EC%9A%A9-%EC%88%9C%EC%88%98-JPA-%EB%A6%AC%ED%8F%AC%EC%A7%80%ED%86%A0%EB%A6%AC%EC%99%80-Querydsl/)
 - <font color="#92d050">동적 쿼리 Builder 적용</font>
-- 동적 쿼리 Where 적용
+- [동적 쿼리 Where 적용](https://iamminseongkim.github.io/jpa/Querydsl-%EB%8F%99%EC%A0%81-%EC%BF%BC%EB%A6%AC-Where-%EC%A0%81%EC%9A%A9/)
 - 조회 API 컨트롤러 개발
 
 --- 
