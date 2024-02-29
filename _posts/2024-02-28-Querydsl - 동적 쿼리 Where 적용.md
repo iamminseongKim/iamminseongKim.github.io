@@ -114,4 +114,4 @@ public void searchTest() throws Exception {
 
 테스트도 문제 없이 통과가 됐다.
 
-`BooleanBuilder`보다 보기는 더 좋고, 검증 메서드들 4개를 `재활용` 할 수도 있기 때문에<br> 이쪽이 좀 더 선호 될 것 같다.
+`BooleanBuilder`보다 보기는 더 좋고, <br>검증 메서드들 4개를 `재활용` 할 수도 있기 때문에<br> 이쪽이 좀 더 선호 될 것 같다.
