@@ -12,6 +12,7 @@ date: 2024-03-04
 last_modified_at: 2024-03-04
 ---
 > 인프런 실전! Querydsl 강의 내용 정리
+
 ## 스프링 데이터 JPA 리포지토리로 변경
 
 기존에 만들었던 `MemberJpaRepository`를 스프링 데이터 JPA로 동작하도록 바꿔보자.
