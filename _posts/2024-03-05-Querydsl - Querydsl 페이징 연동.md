@@ -24,8 +24,9 @@ last_modified_at: 2024-03-05
 Page<MemberTeamDto> searchPageSimple(MemberSearchCondition condition, Pageable pageable);
 ```
 
-구현 해 보자. `MemberRepositoryImpl
+구현 해 보자. 
 
+`MemberRepositoryImpl`
 ```java
 @Override  
 public Page<MemberTeamDto> searchPageSimple(MemberSearchCondition condition, Pageable pageable) {  
@@ -224,5 +225,7 @@ Page<MemberTeamDto> result = memberRepository.searchPageComplex(condition, pageR
 
 ![](https://i.imgur.com/WxF8atz.png)
 
-통과는 잘 됐고, 또 카운트 쿼리도 따로 나간 걸 볼 수 있다.
+통과는 잘 됐고, 
+
+또 카운트 쿼리도 따로 나간 걸 볼 수 있다.
 
