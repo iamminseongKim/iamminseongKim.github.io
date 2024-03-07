@@ -32,7 +32,9 @@ public interface MemberRepository extends JpaRepository<Member, Long>, MemberRep
 }
 ```
 
-그 후 이제 기능들을 사용하면 되는데 바로 테스트 코드를 보자.
+그 후 이제 기능들을 사용하면 되는데 
+
+바로 테스트 코드를 보자.
 
 ```java
 @Test  
