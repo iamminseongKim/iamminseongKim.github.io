@@ -56,6 +56,7 @@ public MemberRepositoryImpl(EntityManager em) {
 	this.queryFactory = new JPAQueryFactory(em);  
 }
 ```
+
 다음과 같이 받아주면 사용이 가능하다.
 
 ```java
