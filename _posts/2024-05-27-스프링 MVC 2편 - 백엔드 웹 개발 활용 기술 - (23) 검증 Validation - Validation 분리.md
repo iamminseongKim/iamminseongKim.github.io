@@ -74,6 +74,8 @@ public interface Validator {
 
 - `supports() {}` :  해당 검증기를 지원하는 여부
 - `validate(Object target, Errors errors)` : 검증 대상 객체와 `BindingResult`
+  - `BindingResult`는 `Errors`의 자식 클래스
+  
 
 그래서 `supports()` 에선 
 ```java
@@ -86,10 +88,9 @@ return Item.class.isAssignableFrom(clazz);
 
 `item == clazz` 이렇게 했으면 Item의 자식 클래스는 통과 못했을 것이다.
 
-> `Class.isAssignableFrom`, `instanceof` 가 있다. 
+> 클래스 비교에는 `Class.isAssignableFrom`, `instanceof` 가 있다. 
 
 `validate()` 에서는 이제  컨트롤러에 있던 검증 로직을 넣었다.
-
 
 이제 컨트롤러단 에서 사용해 보자.
 
@@ -177,7 +178,7 @@ public String addItemV6(@Validated @ModelAttribute Item item, BindingResult bind
 대신에 
 
 ```java
-@Validated @ModelAttribute Item item
+public String addItemV6(@Validated @ModelAttribute Item item, ...)
 ```
 
 검증 대상인 `Item` 앞에 `@Validated` 어노테이션이 붙었다.
@@ -205,6 +206,7 @@ public class ItemServiceApplication implements WebMvcConfigurer {
     public static void main(String[] args) {  
        SpringApplication.run(ItemServiceApplication.class, args);  
     }  
+    
     @Override  
     public Validator getValidator() {  
        return new ItemValidator();  
