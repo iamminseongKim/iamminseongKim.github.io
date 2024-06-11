@@ -1,5 +1,5 @@
 ---
-title: 2024-05-27-스프링 MVC 2편 - 백엔드 웹 개발 활용 기술 - (23) 검증 Validation - Validation 분리
+title: 스프링 MVC 2편 - 백엔드 웹 개발 활용 기술 - (23) 검증 Validation - Validation 분리
 aliases: 
 tags:
   - spring
