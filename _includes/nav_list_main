@@ -35,21 +35,21 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-       <!-- <span class="nav__sub-title">Coding Test</span>
+      <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
+                    {% if category[0] == "algorithm" %}
                         <li><a href="/categories/algorithm" class="">알고리즘 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% if category[0] == "coding-test" %}
+                        <li><a href="/categories/coding-test" class="">코테 문제 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul> -->
+            </ul>
 			<span class="nav__sub-title">etc 🤷‍♂️</span>
 			<ul>
                 {% for category in site.categories %}
