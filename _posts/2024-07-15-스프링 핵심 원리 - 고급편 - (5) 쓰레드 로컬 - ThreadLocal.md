@@ -53,3 +53,107 @@ last_modified_at: 2024-07-15
 
 자바는 언어 차원에서 쓰레드 로컬을 지원하기 위한 `java.lang.ThreadLocal`클래스를 제공한다.
 
+
+## ThreadLocal - 예제 코드
+
+예제 코드를 통해서 `ThreadLocal`을 학습해보자.
+
+![](https://i.imgur.com/TEw9NRu.png){: .align-center}
+
+해당 위치에 `ThreadLocalService`를 만들어서 테스트 해보자.
+
+
+```java
+@Slf4j  
+public class TheadLocalService {  
+  
+    private ThreadLocal<String> nameStore = new ThreadLocal<>();  
+  
+    public String logic(String name) {  
+  
+        log.info("저장 name={} --> nameStore={}", name, nameStore.get());  
+        nameStore.set(name);  
+        sleep(1000);  
+        log.info("조회 nameStore={}", nameStore.get());  
+        return nameStore.get();  
+    }  
+  
+    private void sleep(long millis) {  
+        try {  
+            Thread.sleep(millis);  
+        } catch (InterruptedException e) {  
+            e.printStackTrace();  
+        }  
+    }  
+}
+```
+
+기존에 있던 `FieldService`와 거의 같은 코드인데, `nameStore`필드가 일반 `String`타입에서 `ThreadLocal`을 사용하도록 변경되었다
+
+**ThreadLocal 사용법**
+- 값 저장 : `ThreadLocal.set(xxx)`
+- 값 조회 : `ThreadLocal.get()`
+- 값 제거 : `ThreadLocal.remove()`
+
+> **주의**<br>해당 쓰레드가 쓰레드 로컬을 모두 사용하고 나면 `ThreadLocal.remove()`를 호출해서 쓰레드 로컬에 저장된 값을 제거해주어야 한다. 
+
+
+이제 테스트 코드를 작성해 보자.
+
+### ThreadLocalServiceTest
+
+
+```java
+@Slf4j  
+class ThreadLocalServiceTest {  
+    private ThreadLocalService service = new ThreadLocalService();  
+  
+    @Test  
+    void field() {  
+        log.info("main start");  
+        Runnable userA = () -> {  
+            service.logic("userA");  
+        };  
+  
+        Runnable userB = () -> {  
+            service.logic("userB");  
+        };  
+  
+        Thread threadA = new Thread(userA);  
+        threadA.setName("thread-A");  
+  
+        Thread threadB = new Thread(userB);  
+        threadB.setName("thread-B");  
+  
+        threadA.start();  
+        //sleep(2000); // 동시성 문제가 발생 안하는 코드  
+        sleep(100);    // 동시성 문제가 발생하는 코드
+        threadB.start();  
+  
+        sleep(3000); // 메인 쓰레드 종료 대기  
+        log.info("main exit");  
+    }  
+  
+    private void sleep(long millis) {  
+        try {  
+            Thread.sleep(millis);  
+        } catch (InterruptedException e) {  
+            e.printStackTrace();  
+        }  
+    }  
+}
+```
+
+
+지금같이 A와 B 사이 간격을 0.1초로 두고 테스트를 해보았다.
+
+![](https://i.imgur.com/FTyGj3A.png){: .align-center}
+
+이제 각각의 데이터 저장소에 저장하는 모습을 볼 수 있다. 
+
+userB가 처음 저장할 때 nameStore에 값이 없다. userB의 nameStore는 userA와 다른 nameStore이기 때문.
+
+결과적으로 동시성 문제가 해결 되었다.
+
+
+
