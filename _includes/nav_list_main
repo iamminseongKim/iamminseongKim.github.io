@@ -58,6 +58,13 @@
                 {% endfor %}
             </ul>
 			<span class="nav__sub-title">etc 🤷‍♂️</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "etc" %}
+                        <li><a href="/categories/error" class="">error🚨 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 			<ul>
                 {% for category in site.categories %}
                     {% if category[0] == "etc" %}
