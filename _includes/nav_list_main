@@ -42,6 +42,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+			<ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "docker" %}
+                        <li><a href="/categories/docker" class="">docker🐳 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
@@ -60,7 +67,7 @@
 			<span class="nav__sub-title">etc 🤷‍♂️</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "etc" %}
+                    {% if category[0] == "error" %}
                         <li><a href="/categories/error" class="">error🚨 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
